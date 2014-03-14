@@ -15,3 +15,8 @@ It renders the view as an image and return that image to Xcode for inspection.
 
 * Xcode 5.1 or higher
 * ARC
+
+## Further reading
+
+Check out [LLDB-QuickLook](https://github.com/ryanolsonk/LLDB-QuickLook), which provides the same (and more) for lldb.
+No need to add the file to your projects, but you have to install it on each machine. Also, works a bit different.
