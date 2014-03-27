@@ -9,6 +9,7 @@
 
 @implementation UIView (DebugQuickLook)
 
+#ifdef DEBUG
 + (void)insert_debugQuickLookObject
 {
     SEL debugQuickLookObject = NSSelectorFromString(@"debugQuickLookObject");
@@ -48,4 +49,5 @@
     }
 }
 
+#endif
 @end

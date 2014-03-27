@@ -9,7 +9,7 @@ It renders the view as an image and return that image to Xcode for inspection.
 
 * checks for existing implementation of `debugQuickLookObject` on `UIView`. Futureproofing = nice.
 * automagically installs itself, no need to call methods
-* only installs installs itself for `DEBUG` builds.
+* only installs itself for `DEBUG` builds.
 
 ## Requires
 
